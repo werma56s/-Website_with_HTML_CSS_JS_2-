@@ -1,0 +1,200 @@
+body{
+	font-family: Helvetica, Times, Veranda;
+
+}
+#blok1 {
+	float: left;
+	background-color: #ddc4b6;
+	width: 30%;
+	min-height: 740px;
+}
+#blok2 {
+	float: left;
+	background-color: #e4c2af;
+	width: 70%;
+	min-height: 740px;
+}
+footer {
+	text-align: center;
+	clear: both;
+	padding: 2px;
+	margin: 5px auto 5px auto;
+}
+#spis_tresci, #zrodlo, #kontakt {
+	
+	padding: 5px;
+	background-color: white;
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	margin-top: 15px;
+	min-block-size:225px;
+
+	/* zaokroglane obramowanie */
+	border: 3px solid #B52D43;
+	padding: 5px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+	/* cień pudełek */
+	-moz-box-shadow: 0 0 10px #777777;
+	-webkit-box-shadow: 0 0 10px #777777;
+	box-shadow: 0 0 10px #777777;
+}
+#l1 {
+	background-color: #ded5d0;
+	text-align: justify;
+	font-size: 13px;
+
+	width: 85%; 
+	margin:auto; 
+	margin-top: 5px;
+
+	/* zaokroglane obramowanie */
+	padding: 2px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#logo {
+	width: 75px;
+	height: 75px;
+
+	/* zaokroglane obramowanie w idealne kółko */
+	 padding: 0px;
+     border-radius: 100px;
+     -moz-border-radius: 100px;
+     -webkit-border-radius: 100px;
+}
+#logo:hover {
+	opacity: 0.6;
+}
+h4{
+	background-color: #e4c2af;
+	letter-spacing: 10px;
+	color: white !important;
+
+	/* zaokroglane obramowanie */
+	border: 5px 0 #B52D43;
+	padding: 5px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+}
+header {
+	width: 100%;
+	background-color: #f6ceb8;
+	padding: 5px;
+	text-align: center;
+	letter-spacing: 30px;
+	color: white !important;
+
+}
+#galeria {
+	width: 100%;
+	background-color: #3488;
+	min-block-size:240px;
+}
+img#medium {
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	margin-left: 30px;
+	border: 6px solid #d6d6d6;
+	border-bottom: 25px solid #d6d6d6;
+	/* cień pudełek */
+	-moz-box-shadow: 0 0 10px #777777;
+	-webkit-box-shadow: 0 0 10px #777777;
+	box-shadow: 0 0 10px #777777;
+}
+img#medium:hover {
+	opacity: 0.4;
+}
+iframe {
+	margin: 10%;
+	margin-top: 3%;
+	/* zaokroglane obramowanie */
+	border: 5px solid #f6ceb8;
+	padding: 5px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+	/* cień pudełek */
+	-moz-box-shadow: 0 0 10px #777777;
+	-webkit-box-shadow: 0 0 10px #777777;
+	box-shadow: 0 0 10px #777777;
+}
+div#mapa {
+	opacity: 0.8;
+}
+#mapa {
+	background-image: url("od4.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	float: left;
+	width: 50%;
+	min-block-size:434px;
+}
+#fomularz {
+	float: left;
+	background-color: #ded5d0;
+	width: 50%;
+	min-block-size:434px;
+}
+#ankieta_tytol{
+	min-block-size:70px;
+	background-color: white;
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	margin-top: 5px;
+	letter-spacing: 10px;
+
+	/* zaokroglane obramowanie */
+	border: 5px solid #f6ceb8;
+	padding: 5px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+	/* cień pudełek */
+	-moz-box-shadow: 0 0 10px #777777;
+	-webkit-box-shadow: 0 0 10px #777777;
+	box-shadow: 0 0 10px #777777;
+}	
+#pytania {
+	min-block-size:330px;
+	background-color: white;
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	margin-top: 5px;
+	letter-spacing: 5px;
+
+	/* zaokroglane obramowanie */
+	border: 5px solid #f6ceb8;
+	padding: 5px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+	/* cień pudełek */
+	-moz-box-shadow: 0 0 10px #777777;
+	-webkit-box-shadow: 0 0 10px #777777;
+	box-shadow: 0 0 10px #777777;
+}
+	/* Kod z książki "HTML I CSS" rozdział 14, modyfikowany, wygląd przycisków*/
+	input{
+        font-size: 120%;
+        color: #5a5854;
+        background-color: #f2f2f2;
+        border: 1px solid #bdbdbd;
+        border-radius: 5px;
+        padding: 5px 10px 5px 10px;
+        background-repeat: no-repeat;
+        background-position: 8px 9px;
+        margin-bottom: 10px;}
+     }

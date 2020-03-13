@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TEKSTY!!</title>
+	<meta charset="UTF-8">
+ 	<link rel="stylesheet" href="styles.css">
+ 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<div id="blok1">
+		<div id="spis_tresci">
+			<h4>Spis treści:</h4>
+			<div id="l1"> 
+				<ol type="I" style="margin-top: 1px; margin-bottom: 1px;">
+				<li>Spis
+					<ol type="1">
+					<li>Kwiaty
+						<ol type="a">
+						<li>Kwaity domowe
+							<ul>
+							<li>Ładne</li>
+							<li>Brzydkie</li>
+							</ul>
+						</li>
+						<li>Kwiaty ogrodowe</li>
+						</ol>
+					</li>
+					<li>Punkt I.2</li>
+					</ol>
+				</li>
+				<li> Kontakt</li>
+				</ol>
+			</div>
+
+		</div>
+		<div id="zrodlo" >
+			<h4>Kwiaty rodzaje: </h4>
+			<div id="l1">
+			<dl style="text-align: left; font-size: 10px;">
+				<dt>Lilie ogrodowe</dt>
+				<dd> w zależności od gatunku kwitną od wiosny do późnej jesieni.</dd>
+			</dl>
+			</div>
+			<div id="l1">
+			<dl style="text-align: left; font-size: 10px;">
+				<dt>Astry marcinkiili.</dt>
+				<dd> Ciekawą propozycją na późne lato i jesień. </dd> 
+			</dl>
+			</div>
+		</div>
+		<div id="kontakt">
+			<h4>Kontakt:</h4>
+			<img id="logo" src="od2.png" alt="Logo"> <br/>
+			<h6 id="autor">Ania Nowak</h6> <hr>
+			<a href="kontakt@s.pl" class="traas"> kontakt@s.p </a>
+			<h6 id="telr"> +48 294 033 300</h6>
+
+		</div>
+	</div>
+
+	<div id="blok2">
+		<header>
+			<h1>GALERIA</h1>
+		</header>
+		<div id="galeria">
+			<img id="medium" src="od1.png" alt="zdj1">
+			<img id="medium" src="od2.png" alt="zdj2">
+			<img id="medium" src="od3.png" alt="zdj3">
+			<img id="medium" src="od4.jpg" alt="zdj4">
+		</div>
+		<div id="mapa">
+			<h4 style="text-align: center; width: 50%; margin:auto; margin-top: 20px; letter-spacing: 16px; 
+			/* cień pudełek */
+			-moz-box-shadow: 0 0 10px #777777;
+			-webkit-box-shadow: 0 0 10px #777777;
+			box-shadow: 0 0 10px #777777;">Mapa</h4>
+			
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164116.5192597883!2d21.84837229017227!3d50.00534563135541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfae3cc14d449%3A0xd2240d31b33eb2ed!2zUnplc3rDs3c!5e0!3m2!1spl!2spl!4v1584696830473!5m2!1spl!2spl" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe></div>
+		
+		<div id="fomularz">
+			<div id="ankieta_tytol">
+				<h1>ANKIETA</h1>
+			</div>
+			<div id="pytania">
+				<form action="skrypt.php" method="post">
+				<p>Podabała Ci się ta strona?</br>
+				<input type="radio"  name="option" value="TAK" checked="checked"> TAK
+				<input type="radio"  name="option" value="NIE"> NIE</br> </p> <hr>
+
+				<p>Co Ci się podobało?</br>
+				<input type="checkbox"  name="like" value="l1" checked="checked"> Szybkość
+				<input type="checkbox"  name="like" value="l2"> Designe
+				<input type="checkbox"  name="like" value="l3"> Wszystko</br> </p> <hr>
+				
+				<p >Jakiej przeglądarki używasz?</br>
+				<select style="margin-top: 5px;" name="przegladarka">
+					<option value="FireFox">FireFox</option>
+					<option value="Chrome">Chrome</option>
+					<option value="Opera">Opera</option>
+					<option value="Tor">Tor</option>
+				</select></p> <hr>
+
+				<input name="Imię" value="Podaj swoje Imię">
+				<input type="submit" id="przycisk" value="Wyślij" >
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p>Autor: Weronia Górska</p>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
